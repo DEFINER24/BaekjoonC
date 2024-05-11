@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char pNum[13]; //입력받을 전화번호(알파벳 형식)
+    char pNum[16]; //입력받을 전화번호(알파벳 형식)
     int i = 0, time = 0; //반복자, 걸리는 시간 정의
     scanf("%s", pNum); //전화번호(알파벳) 입력받기
     while(pNum[i] != 0){
